@@ -1,1 +1,163 @@
-trab3
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>StreamPlay - Catálogo</title>
+</head>
+
+<body>
+
+<header>
+    <h1>🎬 StreamPlay</h1>
+    <p>Catálogo de filmes e séries</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#filmes">Filmes</a></li>
+        <li><a href="#series">Séries</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<hr>
+
+<section id="filmes">
+    <h2>🍿 Filmes</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <td width="220" height="320" align="center">
+                <h3>Interestelar</h3>
+                <img src="imagens/interstellar.jpg" width="150" height="200">
+                <p>Ficção Científica</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>Matrix</h3>
+                <img src="imagens/matrix.jpg" width="150" height="200">
+                <p>Ação / Ficção</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>Batman: O Cavaleiro das Trevas</h3>
+                <img src="imagens/batman.jpg" width="150" height="200">
+                <p>Ação</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="220" height="320" align="center">
+                <h3>Vingadores: Ultimato</h3>
+                <img src="imagens/vingadores.jpg" width="150" height="200">
+                <p>Herói / Ação</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>Avatar</h3>
+                <img src="imagens/avatar.jpg" width="150" height="200">
+                <p>Aventura</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>O Senhor dos Anéis: A Sociedade do Anel</h3>
+                <img src="imagens/lotr1.jpg" width="150" height="200">
+                <p>Fantasia / Aventura</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="220" height="320" align="center">
+                <h3>O Senhor dos Anéis: As Duas Torres</h3>
+                <img src="imagens/lotr2.jpg" width="150" height="200">
+                <p>Fantasia / Aventura</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>O Senhor dos Anéis: O Retorno do Rei</h3>
+                <img src="imagens/lotr3.jpg" width="150" height="200">
+                <p>Fantasia / Aventura</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>Matrix Reloaded</h3>
+                <img src="imagens/matrix2.jpg" width="150" height="200">
+                <p>Ação / Ficção</p>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<hr>
+
+<section id="series">
+    <h2>📺 Séries</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <td width="220" height="320" align="center">
+                <h3>Stranger Things</h3>
+                <img src="imagens/stranger.jpg" width="150" height="200">
+                <p>Suspense</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>The Office</h3>
+                <img src="imagens/theoffice.jpg" width="150" height="200">
+                <p>Comédia</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>Breaking Bad</h3>
+                <img src="imagens/breakingbad.jpg" width="150" height="200">
+                <p>Drama</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="220" height="320" align="center">
+                <h3>Game of Thrones</h3>
+                <img src="imagens/got.jpg" width="150" height="200">
+                <p>Fantasia</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>The Boys</h3>
+                <img src="imagens/theboys.jpg" width="150" height="200">
+                <p>Ação</p>
+            </td>
+
+            <td width="220" height="320" align="center">
+                <h3>La Casa de Papel</h3>
+                <img src="imagens/lacasa.jpg" width="150" height="200">
+                <p>Suspense</p>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<hr>
+
+<section id="contato">
+    <h2>📩 Fale Conosco</h2>
+
+    <form>
+        <label>Nome:</label><br>
+        <input type="text"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email"><br><br>
+
+        <label>Mensagem:</label><br>
+        <textarea></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 StreamPlay</p>
+</footer>
+
+</body>
+</html>
